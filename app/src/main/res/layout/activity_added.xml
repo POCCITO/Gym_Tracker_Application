@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/linear_gradient"
+    tools:context=".screens.ActivityAdded">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnGoToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="left"
+        android:onClick="goToHome"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Activity has been added!"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:src="@drawable/check"
+        android:layout_gravity="top"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnGoToAddActivity"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="goToAddActivity"
+        android:text="Add Another Activity"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>

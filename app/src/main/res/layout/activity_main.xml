@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/linear_gradient"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnGoToAddActivity"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="goToAddActivity"
+        android:text="Add Activity"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnGoToViewHistory"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="goToViewHistory"
+        android:text="Activity History"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnGoToViewGraphs"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="goToViewGraphs"
+        android:text="View Graphs"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnResetUserData"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:longClickable="true"
+        android:text="Reset"
+        android:textSize="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="55dp"
+        />
+
+</LinearLayout>

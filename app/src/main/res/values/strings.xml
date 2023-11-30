@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gym Tracker</string>
+    <string name="activities">Bench Press,Biceps Curl,Calf Press,Chest Press,Hammer Curl,Lat Pulldown,Leg Extension,Leg Press,Pec Fly,Pull Ups,Shoulder Press,Shoulder Press Sideways,Trap Shrug,Triceps Extension,Wrist Curl</string>
+</resources>

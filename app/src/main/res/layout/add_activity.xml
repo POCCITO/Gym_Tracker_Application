@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/linear_gradient"
+    tools:context=".screens.AddActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnGoToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="left"
+        android:onClick="goToHome"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Activity:"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/activityInputID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/field_style"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Weight (kg):"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <EditText
+        android:id="@+id/weightInputID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/field_style"
+        android:padding="10dp"
+        android:hint="Enter a number"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Amount of sets:"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <EditText
+        android:id="@+id/setInputID"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/field_style"
+        android:padding="10dp"
+        android:hint="Enter a number"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnSubmitActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="right"
+        android:onClick="submitActivity"
+        android:layout_marginRight="55dp"
+        />
+
+</LinearLayout>

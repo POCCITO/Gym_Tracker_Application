@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="activities">
+        <item>Click to select activity</item>
+        <item>Bench press</item>
+        <item>Biceps curl</item>
+        <item>Calf press</item>
+        <item>Chest press</item>
+        <item>Hammer curl</item>
+        <item>Lat pull down</item>
+        <item>Leg extensions</item>
+        <item>Leg press</item>
+        <item>Pec fly</item>
+        <item>Pull ups</item>
+        <item>Shoulder press</item>
+        <item>Shoulder press sideways</item>
+        <item>Triceps extensions</item>
+        <item>Wrist curls</item>
+    </array>
+</resources>
