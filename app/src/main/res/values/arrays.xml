@@ -2,19 +2,37 @@
 <resources>
     <array name="activities">
         <item>Click to select activity</item>
-        <item>Bench press</item>
-        <item>Biceps curl</item>
-        <item>Calf press</item>
-        <item>Chest press</item>
-        <item>Hammer curl</item>
-        <item>Lat pull down</item>
-        <item>Leg extensions</item>
-        <item>Leg press</item>
-        <item>Pec fly</item>
-        <item>Pull ups</item>
-        <item>Shoulder press</item>
-        <item>Shoulder press sideways</item>
-        <item>Triceps extensions</item>
-        <item>Wrist curls</item>
+        <item>Bench Press</item>
+        <item>Biceps Curl</item>
+        <item>Calf Press</item>
+        <item>Chest Press</item>
+        <item>Hammer Curl</item>
+        <item>Lat Pulldown</item>
+        <item>Leg Extension</item>
+        <item>Leg Press</item>
+        <item>Pec Fly</item>
+        <item>Pull Ups</item>
+        <item>Shoulder Press</item>
+        <item>Shoulder Press Sideways</item>
+        <item>Trap Shrug</item>
+        <item>Triceps Extension</item>
+        <item>Wrist Curl</item>
+    </array>
+    <array name="activities2">
+        <item>Bench Press</item>
+        <item>Biceps Curl</item>
+        <item>Calf Press</item>
+        <item>Chest Press</item>
+        <item>Hammer Curl</item>
+        <item>Lat Pulldown</item>
+        <item>Leg Extension</item>
+        <item>Leg Press</item>
+        <item>Pec Fly</item>
+        <item>Pull Ups</item>
+        <item>Shoulder Press</item>
+        <item>Shoulder Press Sideways</item>
+        <item>Trap Shrug</item>
+        <item>Triceps Extension</item>
+        <item>Wrist Curl</item>
     </array>
 </resources>

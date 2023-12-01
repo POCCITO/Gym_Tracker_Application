@@ -13,9 +13,14 @@ interface GymActivityDao {
     @Query("SELECT * FROM activity_table")
     suspend fun getAllActivities(): List<GymActivity>
 
-    @Query("SELECT weight FROM activity_table")
-    suspend fun getAllWeights(): List<Int>
+//    @Query("SELECT weight FROM activity_table")
+//    suspend fun getAllWeights(): List<Int>
 
+    @Query("SELECT weight FROM activity_table WHERE activity = :activity")
+    suspend fun getWeightsByActivity(activity: String): List<Int>
+
+//    @Query("SELECT timestamp FROM activity_table")
+//    suspend fun getAllDates(): List<Long>
 
 //    @Query("DELETE FROM activity_table")
 //    suspend fun clearAllActivities()
