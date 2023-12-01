@@ -7,7 +7,7 @@ Features:
 - The user can submit a new activity.
 - The user can view the previously submitted activities on a history screen.
 - The user can view your progress displayed in a graph.
-- The user can reset his user data.
+- The user can reset his user data (hold reset button).
 
 ## Which program is used?
 Android Studio has been used to create the application
